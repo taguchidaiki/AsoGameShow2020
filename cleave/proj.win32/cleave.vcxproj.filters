@@ -10,6 +10,15 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{9b39b86e-0b2b-492f-8a25-db1b780e1e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{017aa6cb-0dab-4978-8978-26b0311752c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{55b8e838-4108-4865-894d-8371f8c96f0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,6 +30,26 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\scene\GameEnd.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\GameMain.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\GameTitle.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\StageSelect.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\debug\_DebugConOut.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\debug\_DebugGraph.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\input\OPRT_KEY.cpp" />
+    <ClCompile Include="..\Classes\input\OPRT_TOUCH.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -32,6 +61,27 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\scene\GameEnd.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\GameMain.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\GameTitle.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\StageSelect.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\debug\_DebugConOut.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\debug\_DebugGraph.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input\OPRT.h" />
+    <ClInclude Include="..\Classes\input\OPRT_KEY.h" />
+    <ClInclude Include="..\Classes\input\OPRT_TOUCH.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc">
