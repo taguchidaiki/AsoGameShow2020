@@ -9,6 +9,7 @@ struct OPRT_TOUCH :public OPRT
 	//入力タイプ::タッチ
 	OPRT_TYPE GetOprtType() override { return OPRT_TYPE::TOUCH;  };
 
+	void Init() override;
 	void Init(cocos2d::Node& sp) override;
 	void Update() override;
 

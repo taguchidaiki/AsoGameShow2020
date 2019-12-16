@@ -2,6 +2,8 @@
 #include "cocos2d.h"
 #include "debug/_DebugGraph.h"
 #include "debug/_DebugConOut.h"
+#include "input/OPRT_MOUSE.h"
+#include "scene/StageSelect.h"
 
 class GameTitle
 	:public cocos2d::Scene
@@ -18,5 +20,8 @@ public:
 
 	// implement the "static create()" method manually
 	CREATE_FUNC(GameTitle);
+
+private:
+	std::unique_ptr<OPRT> input;
 };
 

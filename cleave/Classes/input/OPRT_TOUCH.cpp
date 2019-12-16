@@ -9,9 +9,14 @@ OPRT_TOUCH::~OPRT_TOUCH()
 {
 }
 
+void OPRT_TOUCH::Init()
+{
+}
+
 void OPRT_TOUCH::Init(cocos2d::Node & sp)
 {
 	auto _ctlTouch = cocos2d::EventListenerTouchOneByOne::create();
+
 	_ctlTouch->onTouchBegan = [this](cocos2d::Touch *touch, cocos2d::Event* event)
 	{
 		_touchPoint.first = touch->getLocation();

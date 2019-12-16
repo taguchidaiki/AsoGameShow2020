@@ -48,8 +48,12 @@
     <ClCompile Include="..\Classes\debug\_DebugGraph.cpp">
       <Filter>debug</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\input\OPRT_KEY.cpp" />
-    <ClCompile Include="..\Classes\input\OPRT_TOUCH.cpp" />
+    <ClCompile Include="..\Classes\input\OPRT_TOUCH.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\input\OPRT_MOUSE.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -79,9 +83,15 @@
     <ClInclude Include="..\Classes\debug\_DebugGraph.h">
       <Filter>debug</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\input\OPRT.h" />
-    <ClInclude Include="..\Classes\input\OPRT_KEY.h" />
-    <ClInclude Include="..\Classes\input\OPRT_TOUCH.h" />
+    <ClInclude Include="..\Classes\input\OPRT.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input\OPRT_TOUCH.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\input\OPRT_MOUSE.h">
+      <Filter>input</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc">
